@@ -1,4 +1,23 @@
 body{
-    background-color: #000;
-    color: #f6f6f6;
+    background-color: #fff;
+    color: #000;
+}
+
+.destacastrong{
+    color: #E01E37;
+}
+
+.botao{
+    display: flex;
+    width: 280px;
+    height: 79px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0;
+
+    border-radius: 16px;
+    border: 0px solid #DA1E37;
+    background: #DA1E37;
 }
