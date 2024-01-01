@@ -1,23 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
-    background-color: #fff;
-    color: #000;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000;
+    color: #fff;
 }
 
 .destaca-strong{
     color: #E01E37;
 }
 
-.botao{
+.apresentacao{
+    margin: 10%;
     display: flex;
-    width: 280px;
-    height: 79px;
-    padding: 16px;
-    justify-content: center;
     align-items: center;
-    gap: 16px;
-    flex-shrink: 0;
-
-    border-radius: 16px;
-    border: 0px solid #DA1E37;
-    background: #DA1E37;
+    justify-content: space-between;
 }
+
+.botao{
+   
+}
+
