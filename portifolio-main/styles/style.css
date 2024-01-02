@@ -5,18 +5,30 @@
 }
 
 body{
-    height: 100vh;
     box-sizing: border-box;
     background-color: #000;
     color: #fff;
 }
 
-.destaca-strong{
-    color: #E01E37;
+.cabecalho{
+    padding: 2% 0 0 15%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #DA1E37;
+    text-decoration: none;
 }
 
 .apresentacao{
-    margin: 10% 15%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,6 +45,10 @@ body{
     font-size: 36px;
     font-family:'Krona One', sans-serif;
     
+}
+
+.destaca-strong{
+    color: #E01E37;
 }
 
 .apresentacao__conteudo__texto{
@@ -75,5 +91,13 @@ body{
     background-color: #272727;
 }
 
-
+.rodape{
+    color: #000;
+    background-color: #DA1E37;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
 
