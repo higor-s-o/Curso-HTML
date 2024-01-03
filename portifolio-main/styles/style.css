@@ -141,3 +141,14 @@ body{
     }
 
 }
+
+@media (max-width:400px){
+
+    .apresentacao__links__navegacao{
+        width: 80%;
+    }
+
+    .apresentacao__imagem{
+        width: 80%;
+    }
+}
