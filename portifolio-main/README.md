@@ -1,5 +1,5 @@
 
-# Curso HTML Olá, Bem vindo ao meu projeto de portfólio.
+# Curso HTML - Olá, Bem vindo ao meu projeto de portfólio.
 
 ![image](./assets/paginafinal.jpg)
 
